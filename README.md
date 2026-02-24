@@ -101,12 +101,22 @@ As <strong>Team Leader & Machine Learning Engineer</strong>, my responsibilities
 <pre>
 .
 ├── data/
-│   └── sample/
-│       ├── train_multimodal_sample.csv
-│       └── test_multimodal_sample.csv
+│   ├── raw/
+│   │   └── data_train_sample.csv
+│   │
+│   └── preprocessed/
+│       ├── visual/
+│       │   └── visual_features_sample.csv
+│       ├── audio/
+│       │   └── audio_features_sample.csv
+│       └── text/
+│           └── text_features_sample.csv
 │
-├── src/
-│   └── model_klasifikasi_akhir_dengan_late_fusion.py
+├── model/
+│   └── best_model.h5
+│
+├── notebooks/
+│   └── exploratory_and_modeling.ipynb
 │
 ├── README.md
 </pre>
